@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 
 void main() => runApp(const MyApp());
 
@@ -13,8 +12,8 @@ class MyApp extends StatelessWidget {
       height: 1726,
       decoration: BoxDecoration(
           gradient: LinearGradient(
-              begin: Alignment(0.07, -1.00),
-              end: Alignment(-0.07, 1),
+              begin: const Alignment(0.07, -1.00),
+              end: const Alignment(-0.07, 1),
               colors: [Colors.white.withOpacity(0.00009999999747378752), Colors.white]
           )
       ),
